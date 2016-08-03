@@ -30,6 +30,6 @@ var vm3 = new Vue({
 var vm4 = new Vue({
   el: '#example4',
   data: {
-    html: '<p class="class">hello vue!</p>'
+    html_tpl: '<h1>Hello Vue.js!</h1>'
   }
 });
