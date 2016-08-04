@@ -33,3 +33,26 @@ var vm4 = new Vue({
     html_tpl: '<h1>Hello Vue.js!</h1>'
   }
 });
+
+var vm5 = new Vue({
+  el: '#example5',
+  data: {
+    id : 5
+  }
+});
+
+var vm6 = new Vue({
+  el: '#example6',
+  data: {
+    number: 1,
+    ok: true,
+    message: 'hello vue'
+  }
+});
+
+var vm7 = new Vue({
+  el: '#example7',
+  data: {
+    message: 'Hello Vue'
+  }
+});
