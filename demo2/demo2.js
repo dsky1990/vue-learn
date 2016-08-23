@@ -41,10 +41,12 @@ var vm3 = new Vue({
     fullName: {
       // getter
       get: function () {
+        console.log('get');
         return this.firstName + ' ' + this.lastName;
       },
       // setter
       set: function (newValue) {
+        console.log('set');
         var names = newValue.split(' ');
         this.firstName = names[0];
         this.lastName = names[names.length - 1];
